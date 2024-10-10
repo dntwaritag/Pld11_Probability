@@ -8,3 +8,6 @@ This project demonstrates how to model and simulate a Bernoulli distribution, us
 * **Failure:** A failure is defined as a player not scoring a penalty kick.
 * **Probability (p):** The chance of success. In this project, we assume an 60% probability that a player Score penalty Kick.
 * **Probability (q):** The chances of failure. The chances of failure are calculated as *1 - p*.
+
+# Video Demo:
+The link: https://drive.google.com/file/d/1fS_dS-DiKQGbhpbLxiIRIliXSa0m6Epg/view?usp=sharing
