@@ -1,5 +1,3 @@
-## JOHN AKECH
-
 # Importing libraries:
 
 import numpy as np  # For numerical computations
@@ -18,4 +16,12 @@ penalty_kicks = np.random.binomial(1, p, num_trials)
 goals = np.sum(penalty_kicks == 1) / num_trials
 misses = np.sum(penalty_kicks == 0) / num_trials
 
+# Plotting the probabilities of scoring and missing
+plt.figure(figsize=(8, 5))
+plt.bar(['Score a Goal', 'Miss a Goal'], [goals, misses], color=['green', 'red'], alpha=0.7)
+plt.xlabel('Possible Outcomes')
+plt.ylabel('Probability')
+plt.title('Probability of Scoring a Goal or Missing in a Penalty Kick')
+plt.ylim(0, 1)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
 
