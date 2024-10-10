@@ -14,3 +14,8 @@ q = 1 - p  # Probability of missing the goal (failure), which is 1 minus the pro
 num_trials = 10000  # Number of simulated penalty kicks
 penalty_kicks = np.random.binomial(1, p, num_trials)
 
+# Calculate probabilities of scoring (1) and missing (0)
+goals = np.sum(penalty_kicks == 1) / num_trials
+misses = np.sum(penalty_kicks == 0) / num_trials
+
+
