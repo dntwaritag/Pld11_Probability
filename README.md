@@ -1,13 +1,13 @@
 # Bernoulli Distribution - Scoring A Penalty Kick
 ## Project Overview
-This project demonstrates how to model and simulate a Bernoulli distribution, using the example of a team Score penalty Kick. The Bernoulli distribution is a simple probability distribution that models binary outcomes—success or failure, pass or fail.
+This project demonstrates how to model and simulate a Bernoulli distribution, using the example of a team soccer player's penalty kicks. The Bernoulli distribution is a simple probability distribution that models binary outcomes—success(goal) or failure(miss).
 
 ## Key Concepts:
-* **Bernoulli Distribution:** A probability distribution for a random variable that has only two possible outcomes: success (1) or failure (0).
-* **Success:** In this project, a success is defined as a player scoring a penalty Kick.
-* **Failure:** A failure is defined as a player missing a penalty kick.
-* **Probability (p):** The chance of success. In this project, we assume an 60% probability that a player Score penalty Kick.
-* **Probability (q):** The chances of failure. The chances of failure are calculated as *1 - p*.
+* **Bernoulli Distribution:** A probability distribution modelling two possible outcomes: success/goal (1) or failure/miss (0).
+* **Success(1):** In this project, success is a player scoring a penalty kick.
+* **Failure(0):** A failure is a player missing a penalty kick.
+* **Probability of Success(p):** We assume a 60% chance of scoring, so *p = 0.60*
+* **Probability of Failure (q):** The chance of missing is *q = 1 - p = 0.40*.
 
 ## Video Demo:
 The link: https://drive.google.com/file/d/1fS_dS-DiKQGbhpbLxiIRIliXSa0m6Epg/view?usp=sharing
