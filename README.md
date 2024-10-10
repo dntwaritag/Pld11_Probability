@@ -11,3 +11,6 @@ This project demonstrates how to model and simulate a Bernoulli distribution, us
 
 ## Video Demo:
 The link: https://drive.google.com/file/d/1fS_dS-DiKQGbhpbLxiIRIliXSa0m6Epg/view?usp=sharing
+
+## Presentaion Slides:
+Link: https://docs.google.com/presentation/d/1Q7gZdk3TVQvd2pbrkph0GmFpdWHvsZEKzOgWtRrm00c/edit?usp=sharing
